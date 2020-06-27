@@ -1,0 +1,980 @@
+<html>
+	<head>
+		<style>
+			canvas{
+				   border  : 1px solid black;
+				  }
+		</style>
+	  <canvas id="canvas" width="1000" height = "621"></canvas>
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/CCCCCC.png"width="50" height="50" onclick="grey()">
+	  <input type="image"  src="https://www.onestopaerosols.co.uk/img/colours/webp/ral-metallic-3011-brown-red.webp" width ="50" height="50" onclick="brown()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/666666.png"width="50" height="50" onclick="dimgrey()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/FFFFFF.png"width="50" height="50" onclick="white()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/F3F3F3.png"width="50" height="50" onclick="whitesmoke()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/FF0000.png"width="50" height="50" onclick="red()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/CC0000.png"width="50" height="50"onclick="crimson()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/990000.png"width="50" height="50" onclick="darkred()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/F0F8FF.png"width="50" height="50" onclick="aliceblue()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/0000FF.png"width="50" height="50" onclick="blue()">
+	  <input type="image"  src="https://www.sico.ca/cms/getmedia/45854126-2cc8-42bd-b82e-8cdf6b08f5fc/swatch_signal-hill-green__6129-84-.png"width="50" height="50"onclick="green()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/000000.png" width="50" height="50"onclick="black()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/FFFF00.png" width="50" height="50"onclick="yellow()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/FF9900.png" width="50" height="50"onclick="orange()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/9900FF.png" width="50" height="50"onclick="purple()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/00FFFF.png" width="50" height="50"onclick="aqua()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/00FF00.png" width="50" height="50"onclick="lime()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/FF00FF.png" width="50" height="50"onclick="magenta()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/660000.png" width="50" height="50"onclick="maroon()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/FCE5CD.png"  width="50" height="50"onclick="bisque()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/BF9000.png" width="50" height="50" onclick="darkgoldenrod()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/8E7CC3.png" width="50" height="50"onclick="violet()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/32x32/351C75.png" width="50" height="50"onclick="indigo()">
+	  <input type="image"  src="https://www.colorcombos.com/images/colors/00FFFC.png" width="50" height="50" onclick="cyan()">
+	  <input type="image"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAGFBMVEVp/8ra183z8e7v//lc/8fp5+H///9O/8M0VIxVAAABH0lEQVR4nO3PCQ2EABAAMX78Oz4IORGzaR10Wadb1nOb7HyG27XPdW3vcL+Pqe79Gx7LVIdhnmGfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYd9/eB9T3d/w2ue63uG5TXY+w+l+h1EihcbqknUAAAAASUVORK5CYII=" width="50" height="50" onclick="aquamarine()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/gallery/F0FFFF.png" width="50" height="50" onclick="azure()">
+	  <input type="image"  src="https://www.sico.ca/cms/getmedia/1358facc-ead1-48e1-ae44-82de771996ae/swatch_oat-beige__6113-21-.png" width="50" height="50" onclick="beige()">
+	  <input type="image"  src="https://www.htmlcsscolor.com/preview/gallery/FFEACA.png" width="50" height="50" onclick="blanchedalmond()">
+	  <input type="image"  src="https://www.solidbackgrounds.com/images/2560x1440/2560x1440-blue-violet-solid-color-background.jpg" width="50" height="50" onclick="blueviolet()">
+	  <input type="image"  src="https://www.oval.co.uk/wp-content/uploads/RAL3011.jpg" width="50" height="50" onclick="brown()">
+	  <input type="image"  src="https://www.schemecolor.com/images/color-image-thumb.php?tx&n=Burlywood&w=300&h=300&hex=DEB887" width="50" height="50" onclick="burlywood()">
+	  <input type="image"  src="https://plchldr.co/i/336x280?&bg=a0aec0&text=" width="50" height="50" onclick="cadetblue()">
+	  <input type="image"  src="https://i.ytimg.com/vi/cbSO4EPx2Eg/maxresdefault.jpg" width="50" height="50" onclick="chartreuse()">
+	  <input type="image"  src="https://3catslabs.com/wp-content/uploads/2018/12/Pantone-Living-Coral.jpg" width="50" height="50" onclick="coral()">
+	  <input type="image"  src="https://www.solidbackgrounds.com/images/1920x1080/1920x1080-chocolate-traditional-solid-color-background.jpg" width="50" height="50" onclick="chocolate()">
+	  <input type="image"  src="https://www.solidbackgrounds.com/images/3600x3600/3600x3600-light-cornflower-blue-solid-color-background.jpg" width="50" height="50" onclick="cornflowerblue()">
+	  <input type="image"  src="https://i.ytimg.com/vi/0M6lC3YyZRo/maxresdefault.jpg" width="50" height="50" onclick="crimson()">
+	  <input type="image"  src="https://www.beautycolorcode.com/fff8dc-2880x1800.png" width="50" height="50" onclick="cornsilk()">
+	  <input type="image" src="https://cdn.shopify.com/s/files/1/0142/1757/6506/products/ZJ-J03757.jpg?v=1562116249" width="50" height="50" onclick="darkblue()">
+	  <input type="image" src="https://images-na.ssl-images-amazon.com/images/I/1151jBJJqVL._SX331_BO1,204,203,200_.jpg" width="50" height="50" onclick="darkcyan()">
+	  <input type="image" src="https://www.theflockingshop.co.uk/ekmps/shops/theflockingshop/images/dark-green-3435c--408-p[ekm]320x320[ekm].jpg" width="50" height="50" onclick="darkgreen()">
+	  <input type="image" src="https://images-na.ssl-images-amazon.com/images/I/116lSLkIVqL._SX331_BO1,204,203,200_.jpg" width="50" height="50" onclick="darkkhaki()">
+	  <input type="image" src="https://www.colorhexa.com/8b008b.png" width="50" height="50" onclick="darkmagenta()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/526636.png" width="50" height="50" onclick="darkolivegreen()">
+	  <input type="image" src="https://www.colorhexa.com/ff8c00.png" width="50" height="50" onclick="darkorange()">
+	  <input type="image" src="https://ih0.redbubble.net/image.848766044.5701/flat,750x1000,075,f.u3.jpg" width="50" height="50" onclick="darkorchid()">
+	  <input type="image" src="https://static.bhphoto.com/images/images500x500/1251736391_163242.jpg" width="50" height="50" onclick="darksalmon()">
+	  <input type="image" src="https://images-na.ssl-images-amazon.com/images/I/11aLfNAa%2BCL._SX331_BO1,204,203,200_.jpg" width="50" height="50" onclick="darkseagreen()">
+	  <input type="image" src="https://www.colorhexa.com/483d8b.png" width="50" height="50" onclick="darkslateblue()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/284646.png" width="50" height="50" onclick="darkslategrey()">
+	  <input type="image" src="https://www.colorhexa.com/00ced1.png" width="50" height="50" onclick="darkturquoise()">
+	  <input type="image" src="https://cdn11.bigcommerce.com/s-kjbnzo2/images/stencil/700x1200/products/5220/5787/P_2182__77851.1443812742.500.500__97491.1446745377.jpg?c=2" width="50" height="50" onclick="darkviolet()">
+	  <input type="image" src="https://i.ytimg.com/vi/S7czbG9Noqo/maxresdefault.jpg" width="50" height="50" onclick="deeppink()">
+	  <input type="image" src="https://www.colorhexa.com/00bfff.png" width="50" height="50" onclick="deepskyblue()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/1E90FF.png" width="50" height="50" onclick="dodgerblue()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/AA2320.png" width="50" height="50" onclick="firebrick()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/FEFBEC.png" width="50" height="50" onclick="floralwhite()">
+	  <input type="image" src="https://images-na.ssl-images-amazon.com/images/I/11T22RzOYSL._SX331_BO1,204,203,200_.jpg" width="50" height="50" onclick="forestgreen()">
+	  <input type="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAACWCAMAAAC/8CD2AAAAA1BMVEX/AP804Oa6AAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF8GxXYAARizDlgAAAAASUVORK5CYII=" width="50" height="50" onclick="fuchsia()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/E5DCDC.png" width="50" height="50" onclick="gainsboro()">
+	  <input type="image" src="https://www.colorhexa.com/f8f8ff.png" width="50" height="50" onclick="ghostwhite()">
+	  <input type="image" src="https://images-na.ssl-images-amazon.com/images/I/71G4k2DCo0L._AC_SY355_.jpg" width="50" height="50" onclick="gold()">
+	  <input type="image" src="https://www.myperfectcolor.com/repositories/images/colors/MPC00068352-2.jpg" width="50" height="50" onclick="goldenrod()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/ADFF2F.png" width="50" height="50" onclick="greenyellow()">
+	  <input type="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAADICAMAAAA9W+hXAAAAA1BMVEXw//A8J0FkAAAANElEQVR4nO3BMQEAAADCoPVP7WsIoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAN1+AABVhDU2QAAAABJRU5ErkJggg==" width="50" height="50" onclick="honeydew()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/FF5FB7.png" width="50" height="50" onclick="hotpink()">
+	  <input type="image" src="https://i.ytimg.com/vi/ht7DHgGbJCw/maxresdefault.jpg" width="50" height="50" onclick="indianred()">
+	  <input type="image" src="https://www.solidbackgrounds.com/images/3840x2160/3840x2160-ivory-solid-color-background.jpg" width="50" height="50" onclick="ivory()">
+	  <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPsLkAUAMn_nf0mSI3Z5QPeS1CU-2nqIITGBPp07CFb7k1EzKC&usqp=CAU" width="50" height="50" onclick="khaki()">
+	  <input type="image" src="https://www.colorcombos.com/images/colors/FFEEF5.png" width="50" height="50" onclick="lavenderblush()">
+	  <input type="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAACCCAMAAAAAPLa6AAAAA1BMVEV7/AEw0CRMAAAAMUlEQVR4nO3BMQEAAADCoPVPbQlPoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+BpqIgABsbXZ3QAAAABJRU5ErkJggg==" width="50" height="50" onclick="lawngreen()">
+      <input type="image" src="https://www.colorcombos.com/images/colors/FFFBD0.png" width="50" height="50" onclick="lemonchiffon()">
+	  <input type="image" src="https://www.colorhexa.com/add8e6.png" width="50" height="50" onclick="lightblue()">
+	  <input type="image" src="https://www.colorhexa.com/f08080.png" width="50" height="50" onclick="lightcoral()">
+	  <input type="image" src="https://www.colorhexa.com/e0ffff.png" width="50" height="50" onclick="lightcyan()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/FAFCCD.png" width="50" height="50" onclick="lightgoldenrodyellow()">
+	  <input type="image" src="https://www.beautycolorcode.com/f2f2f2-2880x1800.png" width="50" height="50" onclick="lightgray()">
+	  <input type="image" src="https://www.colorhexa.com/90ee90.png" width="50" height="50" onclick="lightgreen()">
+	  <input type="image" src="https://www.colorhexa.com/ffb6c1.png" width="50" height="50" onclick="lightpink()">
+	  <input type="image" src="https://www.colorhexa.com/ffa07a.png" width="50" height="50" onclick="lightsalmon()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/20B2AA.png" width="50" height="50" onclick="lightseagreen()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/75DAFF.png" width="50" height="50" onclick="lightskyblue()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/87919B.png" width="50" height="50" onclick="lightslategrey()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/B0C4DE.png" width="50" height="50" onclick="lightsteelblue()">
+	  <input type="image" src="https://cdn.shopify.com/s/files/1/0010/0994/2575/products/2022-60-lightyellow_2000x.png?v=1576887859" width="50" height="50" onclick="lightyellow()">
+	  <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6WKKGbvm5cKo3ZWsCGq98CHJY83U1a26pTTIb1tTh3bupMCo-&usqp=CAU" width="50" height="50" onclick="limegreen()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/FAF0E6.png" width="50" height="50" onclick="linen()">
+	  <input type="image" src="https://www.colorhexa.com/66ddaa.png" width="50" height="50" onclick="mediumaquamarine()">
+	  <input type="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAADICAMAAAA9W+hXAAAAA1BMVEUAAM1Cr4PXAAAANElEQVR4nO3BMQEAAADCoPVP7WsIoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAN1+AABVhDU2QAAAABJRU5ErkJggg==" width="50" height="50" onclick="mediumblue()">
+	  <input type="image" src="https://www.ecopetit.cat/wpic/mpic/151-1512819_light-medium-orchid-solid-color-background-wallpaper-lilac.png" width="50" height="50" onclick="mediumorchid()">
+	  <input type="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAAD/CAMAAACdMFkKAAAAA1BMVEWihsCLO0mpAAAASElEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADODMY5AAEanhaiAAAAAElFTkSuQmCC" width="50" height="50" onclick="mediumpurple()">
+	  <input type="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAGFBMVEV8aO56aPB8Z/B9ae97Z+14aO93Z+59aPEFZwwQAAAArUlEQVR4nO3VuQ0EIRAAQe7d/DM+n/bOmUWqigD1DLC+7Nb0AW5ofdhpUu5O2ZPSpDQpTWo92GlSmpQmpUlpUpqUJqVJrSc7TUqT0qQ0KU1Kk9KkFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/3mx06Q0KU1Kk9Kkpr89DvFmNz0SDjG9qDekSWlSmpQmNf3Ec4jpRb2h6ZFwiIudJqVJaVI/7VWd6n2J4wQAAAAASUVORK5CYII=" width="50" height="50" onclick="mediumslateblue()">
+	  <input type="image" src="https://www.colorhexa.com/00fa9a.png" width="50" height="50" onclick="mediumspringgreen()">
+	  <input type="image" src="https://www.colorhexa.com/3cb371.png" width="50" height="50" onclick="mediumseagreen()">
+	  <input type="image" src="https://www.colorhexa.com/48d1cc.png" width="50" height="50" onclick="mediumturquoise()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/C71585.png" width="50" height="50" onclick="mediumvioletred()">
+	  <input type="image" src="https://i.ytimg.com/vi/Oyu7VNuXUKg/maxresdefault.jpg" width="50" height="50" onclick="midnightblue()">
+	  <input type="image" src="https://www.colorhexa.com/f5fffa.png" width="50" height="50" onclick="mintcream()">
+	  <input type="image" src="https://www.colorhexa.com/ffe4e1.png" width="50" height="50" onclick="mistyrose()">
+	  <input type="image" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBg8IBwgPEhANDw0NEBAXDQ8NDw8PFREWFhURFRUYHSggGBoxGxUVITEhJSkrOjouFx8zOD8tNygtLisBCgoKDg0NFw8PFSsZFR0tLS0rLS03LS0rLS0rKzcrLS0rLS0tKy0rNy0tKy0rNystKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAQf/xAAcEAEBAQEAAgMAAAAAAAAAAAAAEQEhQWExUXH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQUE/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A0gBhu4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWZYi3tUJhmUvTPsDwbmYb3V0EnSYXtL6AmSmfGl5DNgHg/DNKBymSF9GaBOUmeClAmWLnNS9sM3tAzOUlylLwCZKi3iILMvTM8l9FUJcJkLw3eATLE3mrepvQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/9k=" width="50" height="50" onclick="moccasin()">
+	  <input type="image" src="https://i.ytimg.com/vi/Ae0fBJGFfug/maxresdefault.jpg" width="50" height="50" onclick="navajowhite()">
+	  <input type="image" src="https://i.ytimg.com/vi/aPZ2-RCnhaQ/maxresdefault.jpg" width="50" height="50" onclick="navy()">
+	  <input type="image" src="https://i.ytimg.com/vi/EMDRbdxlpUQ/maxresdefault.jpg" width="50" height="50" onclick="oldlace()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/808000.png" width="50" height="50" onclick="olive()">
+	  <input type="image" src="https://www.beautycolorcode.com/6b8e23.png" width="50" height="50" onclick="olivedrab()">
+	  <input type="image" src="https://www.colorhexa.com/ff4500.png" width="50" height="50" onclick="orangered()">
+	  <input type="image" src="https://www.solidbackgrounds.com/images/2880x1800/2880x1800-orchid-solid-color-background.jpg" width="50" height="50" onclick="orchid()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/F3EBA3.png" width="50" height="50" onclick="palegoldenrod()">
+	  <input type="image" src="https://www.colorhexa.com/98fb98.png" width="50" height="50" onclick="palegreem()">
+	  <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbDdRmIy4J56Rp6I9cJLTaV5Uwt9h88Jcohx1l6gryZVDumHUd&usqp=CAU" width="50" height="50" onclick="paleturquoise()">
+	  <input type="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAACWCAMAAAC/8CD2AAAAA1BMVEXbcJNgn1wDAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF8GxXYAARizDlgAAAAASUVORK5CYII=" width="50" height="50" onclick="palevioletred()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/FFEFD5.png" width="50" height="50" onclick="papayawhip()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/FFDAB9.png" width="50" height="50" onclick="peachpuff()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/CD853F.png" width="50" height="50" onclick="peru()">
+	  <input type="image" src="https://images-na.ssl-images-amazon.com/images/I/41rpdwPz3ZL.jpg" width="50" height="50" onclick="pink()">
+	  <input type="image" src="https://www.beautycolorcode.com/dda0dd.png" width="50" height="50" onclick="plum()">
+	  <input type="image" src="https://www.colorhexa.com/b0e0e6.png" width="50" height="50" onclick="powderblue()">
+	  <input type="image" src="https://miro.medium.com/max/400/1*bNfxs62uJzISTfuPlOzOWQ.png" width="50" height="50" onclick="rebeccapurple()">
+	  <input type="image" src="https://www.colorhexa.com/bc8f8f.png" width="50" height="50" onclick="rosybrown()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/154FFF.png" width="50" height="50" onclick="royalblue()">
+	  <input type="image" src="https://www.colorhexa.com/8b4513.png" width="50" height="50" onclick="saddlebrown()">
+	  <input type="image" src="https://i1.wp.com/bunnyears.com/wp-content/uploads/2018/05/Salmon-color-e1536874714767.png?fit=1000%2C625&ssl=1&resize=1200%2C900" width="50" height="50" onclick="salmon()">
+	  <input type="image" src="https://www.colorhexa.com/f4a460.png" width="50" height="50" onclick="sandybrown()">
+	  <input type="image" src="https://www.goldleaf.com.au/image/cache/catalog/catalog/sennelier/pastels/oil-pastels/sennelier-oil-pastel-chrome-green-medium-085-500x500.gif" width="50" height="50" onclick="seagreen()">
+	  <input type="image" src="https://www.colorhexa.com/fff5ee.png" width="50" height="50" onclick="seashell()">
+	  <input type="image" src="https://i.ytimg.com/vi/0l7seUMPAaE/maxresdefault.jpg" width="50" height="50" onclick="sienna()">
+	  <input type="image" src="https://qph.fs.quoracdn.net/main-qimg-82be2940aab2fd6b17c215e8aed3ded3" width="50" height="50" onclick="silver()">
+      <input type="image" src="https://www.sico.ca/cms/getmedia/262f5021-4771-41e1-bf6e-a76a45a36cce/swatch_sky-blue__6001-31-.png" width="50" height="50" onclick="skyblue()">
+	  <input type="image" src="https://www.solidbackgrounds.com/images/2880x1800/2880x1800-slate-blue-solid-color-background.jpg" width="50" height="50" onclick="slateblue()">
+	  <input type="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEVufo5ejyGvAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=" width="50" height="50" onclick="slategrey()">
+	  <input type="image" src="https://www.colorhexa.com/fffafa.png" width="50" height="50" onclick="snow()">
+	  <input type="image" src="https://www.colorhexa.com/00ff7f.png" width="50" height="50" onclick="springgreen()">
+	  <input type="image" src="https://www.colorhexa.com/4682b4.png" width="50" height="50" onclick="steelblue()">
+	  <input type="image" src="https://www.solidbackgrounds.com/images/1920x1080/1920x1080-tan-solid-color-background.jpg" width="50" height="50" onclick="tan()">
+	  <input type="image" src="https://www.adorama.com/images/Large/ro395.jpg" width="50" height="50" onclick="teal()">
+	  <input type="image" src="https://www.htmlcsscolor.com/preview/gallery/DDCDDD.png" width="50" height="50" onclick="thistle()">
+	  <input type="image" src="https://www.colorhexa.com/ff6347.png" width="50" height="50" onclick="tomato()">
+	  <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdFygMKWJHE6GKn2iEFfDNi57_bFRm41G1WXb4o84zzj8IfG2j&usqp=CAU" width="50" height="50" onclick="turquoise()">
+	  <input type="image" src="https://www.colorhexa.com/f5deb3.png" width="50" height="50" onclick="wheat()">
+	  <input type="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEWazTLhffh/AAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=" width="50" height="50" onclick="yellowgreen()">
+	  <button id="downloadjpg">DownloadJPG</button>
+	  <button id="downloadpng">DownloadPNG</button>
+	  <button id="downloadgif">DownloadGIF</button>
+	  <button onclick="changecanvassize()">Change Canvas Size</button>
+	  <button onclick="fillbackground()">Fill Background</button>
+	  <button onclick="stroke()">Stroke</button>
+	  <button onclick="rectangle()">Rectangle</button>
+	  <button onclick="arc()">Arc</button>
+	  <button onclick="drawshape()">Draw Shape</button>
+	  <button onclick="drawfillshape()">Draw Fill Shape</button>
+	  <button onclick="location.reload()">Reset</button>
+	</head>
+   <body>   
+	    <script>
+			var md=false;
+			var mousePos,posx,posy;
+			var canvas = document.getElementById("canvas");
+			var ctx = canvas.getContext('2d');
+			var size;
+			var radius;
+			var length;
+			var height;
+			var type="rect";
+			var downloadJPG = document.getElementById("downloadjpg");
+			var downloadPNG = document.getElementById("downloadpng");
+			var downloadGIF = document.getElementById("downloadgif");
+			var points,k,x_value,y_value,startX,startY;
+			var x_values = new Array();
+			var y_values = new Array();
+	
+			ctx.fillStyle="black";
+			
+			if (type=="stroke"){
+				ctx.strokeStyle= "black";
+				ctx.lineWidth = size;
+			
+				ctx.beginPath();
+			}
+			else if (type=="rect" || type=="fillstroke"){
+				ctx.beginPath();
+			
+			}
+			
+			
+			canvas.addEventListener("mousedown",down);
+			canvas.addEventListener("mouseup",toogledraw);
+			canvas.addEventListener("mousemove",
+			
+				function (evt){
+					mousePos = getMousePos(evt);
+					posx = mousePos.x;
+					posy = mousePos.y;
+				
+					draw(posx,posy);
+					
+			});
+			
+			
+			var filename,name;
+			
+			downloadJPG.addEventListener("click", function(){
+				var image = canvas.toDataURL();
+				
+				var tmpLink = document.createElement('a');
+				
+				name = prompt("What do you want to name this file?");
+				filename = name.concat(".jpg");
+				
+				tmpLink.download =filename;
+				tmpLink.href = image;
+				
+				document.body.appendChild(tmpLink);
+				tmpLink.click();
+				document.body.removeChild(tmpLink);
+				
+				});
+				
+			downloadPNG.addEventListener("click", function(){
+				var image = canvas.toDataURL();
+				
+				var tmpLink = document.createElement('a');
+				
+				name = prompt("What do you want to name this file?");
+				filename = name.concat(".png");
+				
+				tmpLink.download =filename;
+				tmpLink.href = image;
+				
+				document.body.appendChild(tmpLink);
+				tmpLink.click();
+				document.body.removeChild(tmpLink);
+				
+				});
+				
+			downloadGIF.addEventListener("click", function(){
+				var image = canvas.toDataURL();
+				
+				var tmpLink = document.createElement('a');
+				
+				name = prompt("What do you want to name this file?");
+				filename = name.concat(".gif");
+				
+				tmpLink.download =filename;
+				tmpLink.href = image;
+				
+				document.body.appendChild(tmpLink);
+				tmpLink.click();
+				document.body.removeChild(tmpLink);
+				
+				});
+				
+			function drawshape(){
+				
+				startX = parseInt(prompt("What is the x coordinate of your starting location"));
+				startY = parseInt(prompt("What is the y coordinate of your starting location"));
+				
+				points = parseInt(prompt("How many other points do you need?"));
+				
+				for (k=1;k<=points;k++){
+					x_value = parseInt(prompt("What is the x coordinate of your "+k+" th point"));
+					x_values.push(x_value);
+					y_value = parseInt(prompt("What is the y coordinate of your "+k+" th point"));
+					y_values.push(y_value);
+				}
+			
+				ctx.beginPath();
+				ctx.moveTo(startX,startY);
+				
+				for (k=0;k<=points-1;k++){
+					ctx.lineTo(x_values[k],y_values[k]);
+				}
+				
+				ctx.closePath();
+				ctx.stroke();
+				ctx.fill();
+			}
+			
+			function drawfillshape(){
+			
+				type="fillstroke";
+				ctx.lineWidth=1;
+				
+			}
+			function stroke(){
+				size = parseInt(prompt("Enter your desired pencil size"));
+				ctx.lineWidth=size;
+				type ="stroke";
+			}
+			function rectangle(){
+				length = parseInt(prompt("Enter your desired rectangle height"));
+				height = parseInt(prompt("Enter your desired rectangle width"));
+				type ="rect";
+			}
+			function arc(){
+				radius = parseInt(prompt("Enter your desired radius"));
+				type ="arc";
+			}
+			function down(){
+				md = true;
+				mousePos = getMousePos(evt);
+				posx = mousePos.x;
+				posy = mousePos.y;
+				
+				if (type=="stroke"|| type=="fillstroke"){
+					ctx.moveTo(posx,posy);
+				}
+			}
+			
+			function toogledraw(){
+				md = false;
+				canvas.style.cursor="default";
+				if(type=="stroke"){
+					ctx.stroke();
+					ctx.beginPath();
+				
+				}
+				else if(type=="fillstroke"){
+					ctx.closePath();
+					ctx.stroke();
+					ctx.fill();
+					ctx.beginPath();
+					
+				}
+				
+			}
+			
+			function getMousePos(evt){
+				var rect = canvas.getBoundingClientRect();
+				return {
+						x:evt.clientX - rect.left,
+						y:evt.clientY - rect.top
+					   };
+				}
+				
+			function draw(posx,posy){
+				canvas.style.cursor="pointer";
+				if (md){
+					if (type=="stroke"|| type=="fillstroke"){
+					
+			
+						ctx.lineTo(posx,posy);
+						
+		
+					}
+					else if (type=="rect"){
+				
+			
+						ctx.fillRect(posx,posy,length,height);
+			
+					}
+					else if (type=="arc"){
+					
+			
+						ctx.arc(posx,posy,radius,0,2*Math.PI,true);
+						ctx.fill();
+						ctx.beginPath();
+						
+					}
+				
+				}
+			}
+			
+			function aliceblue(){
+				ctx.strokeStyle="aliceblue";
+				ctx.fillStyle="aliceblue";
+			}
+			function antiquewhite(){
+				ctx.strokeStyle="antiquewhite";
+				ctx.fillStyle="antiquewhite";
+			}
+			function aqua(){
+				ctx.strokeStyle="aqua";
+				ctx.fillStyle="aqua";
+			}
+			function aquamarine(){
+				ctx.strokeStyle="aquamarine";
+				ctx.fillStyle="aquamarine";
+			}
+			function azure(){
+				ctx.strokeStyle="azure";
+				ctx.fillStyle="azure";
+			}
+			function beige(){
+				ctx.strokeStyle="beige";
+				ctx.fillStyle="beige";
+			}
+			function bisque(){
+				ctx.strokeStyle="bisque";
+				ctx.fillStyle="bisque";
+			}
+			function blanchedalmond(){
+				ctx.strokeStyle="blanchedalmond";
+				ctx.fillStyle="blanchedalmond";
+			}
+			function burlywood(){
+				ctx.strokeStyle="burlywood";
+				ctx.fillStyle="burlywood";
+			}
+			function blue(){
+				ctx.strokeStyle="blue";
+				ctx.fillStyle="blue";
+			}
+			function blueviolet(){
+				ctx.strokeStyle="blueviolet";
+				ctx.fillStyle="blueviolet";
+			}
+			function brown(){
+				ctx.strokeStyle="brown";
+				ctx.fillStyle="brown";
+			}
+			function black(){
+				ctx.strokeStyle="black";
+				ctx.fillStyle="black";
+			}
+			
+			function cyan(){
+				ctx.strokeStyle="cyan";
+				ctx.fillStyle="cyan";
+			}
+			function cadetblue(){
+				ctx.strokeStyle="cadetblue";
+				ctx.fillStyle="cadetblue";
+			}
+			function chocolate(){
+				ctx.strokeStyle="chocolate";
+				ctx.fillStyle="chocolate";
+			}
+			function chartreuse(){
+				ctx.strokeStyle="chartreuse";
+				ctx.fillStyle="chartreuse";
+			}
+			function coral(){
+				ctx.strokeStyle="coral";
+				ctx.fillStyle="coral";
+			}
+			function  crimson(){
+				ctx.strokeStyle="crimson";
+				ctx.fillStyle="crimson";
+			}
+			function cornflowerblue(){
+				ctx.strokeStyle="cornflowerblue";
+				ctx.fillStyle="cornflowerblue";
+			}
+			function cornsilk(){
+				ctx.strokeStyle="cornsilk";
+				ctx.fillStyle="cornsilk";
+			}
+			function darkblue(){
+				ctx.strokeStyle="darkblue";
+				ctx.fillStyle="darkblue";
+			}
+			function darkcyan(){
+				ctx.strokeStyle="darkcyan";
+				ctx.fillStyle="darkcyan";
+			}
+			function darkgoldenrod(){
+				ctx.strokeStyle="darkgoldenrod";
+				ctx.fillStyle="darkgoldenrod";
+			}
+			function darkgreen(){
+				ctx.strokeStyle="darkgreen";
+				ctx.fillStyle="darkgreen";
+			}
+			function darkgrey(){
+				ctx.strokeStyle="darkgrey";
+				ctx.fillStyle="darkgrey";
+			}
+			function darkkhaki(){
+				ctx.strokeStyle="darkkhaki";
+				ctx.fillStyle="darkkhaki";
+			}
+			function darkmagenta(){
+				ctx.strokeStyle="darkmagenta";
+				ctx.fillStyle="darkmagenta";
+			}
+			function darkolivegreen(){
+				ctx.strokeStyle="darkolivegreen";
+				ctx.fillStyle="darkolivegreen";
+			}
+			function darkorange(){
+				ctx.strokeStyle="darkorange";
+				ctx.fillStyle="darkorange";
+			}
+			function darkorchid(){
+				ctx.strokeStyle="darkorchid";
+				ctx.fillStyle="darkorchid";
+			}
+			function darkred(){
+				ctx.strokeStyle="darkred";
+				ctx.fillStyle="darkred";
+			}
+			function darksalmon(){
+				ctx.strokeStyle="darksalmon";
+				ctx.fillStyle="darksalmon";
+			}
+			function darkseagreen(){
+				ctx.strokeStyle="darkseagreen";
+				ctx.fillStyle="darkseagreen";
+			}
+			function darkslateblue(){
+				ctx.strokeStyle="darkslateblue";
+				ctx.fillStyle="darkslateblue";
+			}
+			function darkslategrey(){
+				ctx.strokeStyle="darkslategrey";
+				ctx.fillStyle="darkslategrey";
+			}
+			function darkturquoise(){
+				ctx.strokeStyle="darkturquoise";
+				ctx.fillStyle="darkturquoise";
+			}
+			function darkviolet(){
+				ctx.strokeStyle="darkviolet";
+				ctx.fillStyle="darkviolet";
+			}
+			function deeppink(){
+				ctx.strokeStyle="deeppink";
+				ctx.fillStyle="deeppink";
+			}
+			function deepskyblue(){
+				ctx.strokeStyle="deepskyblue";
+				ctx.fillStyle="deepskyblue";
+			}
+			function dimgrey(){
+				ctx.strokeStyle="dimgrey";
+				ctx.fillStyle="dimgrey";
+			}
+			function dodgerblue(){
+				ctx.strokeStyle="dodgerblue";
+				ctx.fillStyle="dodgerblue";
+			}
+			function firebrick(){
+				ctx.strokeStyle="firebrick";
+				ctx.fillStyle="firebrick";
+			}
+			function floralwhite(){
+				ctx.strokeStyle="floralwhite";
+				ctx.fillStyle="floralwhite";
+			}
+			function forestgreen(){
+				ctx.strokeStyle="forestgreen";
+				ctx.fillStyle="forestgreen";
+			}
+			function fuchsia(){
+				ctx.strokeStyle="fuchsia";
+				ctx.fillStyle="fuchsia";
+			}
+			function gainsboro(){
+				ctx.strokeStyle="gainsboro";
+				ctx.fillStyle="gainsboro";
+			}
+			function ghostwhite(){
+				ctx.strokeStyle="ghostwhite";
+				ctx.fillStyle="ghostwhite";
+			}
+			function gold(){
+				ctx.strokeStyle="gold";
+				ctx.fillStyle="gold";
+			}
+			function goldenrod(){
+				ctx.strokeStyle="goldenrod";
+				ctx.fillStyle="goldenrod";
+			}
+			function green(){
+				ctx.strokeStyle="green";
+				ctx.fillStyle="green";
+			}
+			function grey(){
+				ctx.strokeStyle="grey";
+				ctx.fillStyle="grey";
+			}
+			function greenyellow(){
+				ctx.strokeStyle="greenyellow";
+				ctx.fillStyle="greenyellow";
+			}
+			function honeydew(){
+				ctx.strokeStyle="honeydew";
+				ctx.fillStyle="honeydew";
+			}
+			function hotpink(){
+				ctx.strokeStyle="hotpink";
+				ctx.fillStyle="hotpink";
+			}
+			function indianred(){
+				ctx.strokeStyle="indianred";
+				ctx.fillStyle="indianred";
+			}
+			function indigo(){
+				ctx.strokeStyle="indigo";
+				ctx.fillStyle="indigo";
+			}
+			function ivory(){
+				ctx.strokeStyle="ivory";
+				ctx.fillStyle="ivory";
+			}
+			function khaki(){
+				ctx.strokeStyle="khaki";
+				ctx.fillStyle="khaki";
+			}
+			function lavender(){
+				ctx.strokeStyle="lavender";
+				ctx.fillStyle="lavender";
+			}
+			function lavenderblush(){
+				ctx.strokeStyle="lavenderblush";
+				ctx.fillStyle="lavenderblush";
+			}
+			function lawngreen(){
+				ctx.strokeStyle="lawngreen";
+				ctx.fillStyle="lawngreen";
+			}
+			function lemonchiffon(){
+				ctx.strokeStyle="lemonchiffon";
+				ctx.fillStyle="lemonchiffon";
+			}
+			function lightblue(){
+				ctx.strokeStyle="lightblue";
+				ctx.fillStyle="lightblue";
+			}
+			function lightcoral(){
+				ctx.strokeStyle="lightcoral";
+				ctx.fillStyle="lightcoral";
+			}
+			function lightcyan(){
+				ctx.strokeStyle="lightcyan";
+				ctx.fillStyle="lightcyan";
+			}
+			function lightgoldenrodyellow(){
+				ctx.strokeStyle="lightgoldenrodyellow";
+				ctx.fillStyle="lightgoldenrodyellow";
+			}
+			function lightgrey(){
+				ctx.strokeStyle="lightgrey";
+				ctx.fillStyle="lightgrey";
+			}
+			function lightgreen(){
+				ctx.strokeStyle="lightgreen";
+				ctx.fillStyle="lightgreen";
+			}
+			function lightpink(){
+				ctx.strokeStyle="lightpink";
+				ctx.fillStyle="lightpink";
+			}
+			function lightsalmon(){
+				ctx.strokeStyle="lightsalmon";
+				ctx.fillStyle="lightsalmon";
+			}
+			function lightseagreen(){
+				ctx.strokeStyle="lightseagreen";
+				ctx.fillStyle="lightseagreen";
+			}
+			function lightskyblue(){
+				ctx.strokeStyle="lightskyblue";
+				ctx.fillStyle="lightskyblue";
+			}
+			function lightslategrey(){
+				ctx.strokeStyle="lightslategrey";
+				ctx.fillStyle="lightslategrey";
+			}
+			function lightsteelblue(){
+				ctx.strokeStyle="lightsteelblue";
+				ctx.fillStyle="lightsteelblue";
+			}
+			function lightyellow(){
+				ctx.strokeStyle="lightyellow";
+				ctx.fillStyle="lightyellow";
+			}
+			function lime(){
+				ctx.strokeStyle="lime";
+				ctx.fillStyle="lime";
+			}
+			function limegreen(){
+				ctx.strokeStyle="limegreen";
+				ctx.fillStyle="limegreen";
+			}
+			function linen(){
+				ctx.strokeStyle="linen";
+				ctx.fillStyle="linen";
+			}
+			function magenta(){
+				ctx.strokeStyle="magenta";
+				ctx.fillStyle="magenta";
+			}
+			function maroon(){
+				ctx.strokeStyle="maroon";
+				ctx.fillStyle="maroon";
+			}
+			function mediumaquamarine(){
+				ctx.strokeStyle="mediumaquamarine";
+				ctx.fillStyle="mediumaquamarine";
+			}
+			function mediumblue(){
+				ctx.strokeStyle="mediumblue";
+				ctx.fillStyle="mediumblue";
+			}
+			function mediumorchid(){
+				ctx.strokeStyle="mediumiorchid";
+				ctx.fillStyle="mediumiorchid";
+			}
+			function mediumpurple(){
+				ctx.strokeStyle="mediumpurple";
+				ctx.fillStyle="mediumpurple";
+			}
+			function mediumseagreen(){
+				ctx.strokeStyle="mediumseagreen";
+				ctx.fillStyle="mediumseagreen";
+			}
+			function mediumslateblue(){
+				ctx.strokeStyle="mediumslateblue";
+				ctx.fillStyle="mediumslateblue";c
+			}
+			function mediumspringgreen(){
+				ctx.strokeStyle="mediumspringgreen";
+				ctx.fillStyle="mediumspringgreen";
+			}
+			function mediumturquoise(){
+				ctx.strokeStyle="mediumturquoise";
+				ctx.fillStyle="mediumturquoise";
+			}
+			function mediumvioletred(){
+				ctx.strokeStyle="mediumvioletred";
+				ctx.fillStyle="mediumvioletred";
+			}
+			function midnightblue(){
+				ctx.strokeStyle="midnightblue";
+				ctx.fillStyle="midnightblue";
+			}
+			function mintcream(){
+				ctx.strokeStyle="mintcream";
+				ctx.fillStyle="mintcream";
+			}
+			function mistyrose(){
+				ctx.strokeStyle="mistyrose";
+				ctx.fillStyle="mistyrose";
+			}
+			function moccasin(){
+				ctx.strokeStyle="moccasin";
+				ctx.fillStyle="moccasin";
+			}
+			function navajowhite(){
+				ctx.strokeStyle="navajowhite";
+				ctx.fillStyle="navajowhite";
+			}
+			function navy(){
+				ctx.strokeStyle="navy";
+				ctx.fillStyle="navy";
+			}
+			function oldlace(){
+				ctx.strokeStyle="oldlace";
+				ctx.fillStyle="oldlace";
+			}
+			function olive(){
+				ctx.strokeStyle="olive";
+				ctx.fillStyle="olive";
+			}
+			function olivedrab(){
+				ctx.strokeStyle="olivedrab";
+				ctx.fillStyle="olivedrab";
+			}
+			function orange(){
+				ctx.strokeStyle="orange";
+				ctx.fillStyle="orange";
+			}
+			function orangered(){
+				ctx.strokeStyle="orangered";
+				ctx.fillStyle="orangered";
+			}
+			function orchid(){
+				ctx.strokeStyle="orchid";
+				ctx.fillStyle="orchid";
+			}
+			function palegoldenrod(){
+				ctx.strokeStyle="palegoldenrod";
+				ctx.fillStyle="palegoldenrod";
+			}
+			function palegreen(){
+				ctx.strokeStyle="palegreen";
+				ctx.fillStyle="palegreen";
+			}
+			function paleturquoise(){
+				ctx.strokeStyle="paleturquoise";
+				ctx.fillStyle="paleturquoise";
+			}
+			function palevioletred(){
+				ctx.strokeStyle="palevioletred";
+				ctx.fillStyle="palevioletred";
+			}
+			function papayawhip(){
+				ctx.strokeStyle="papayawhip";
+				ctx.fillStyle="papayawhip";
+			}
+			function peachpuff(){
+				ctx.strokeStyle="peachpuff";
+				ctx.fillStyle="peachpuff";
+			}
+			function peru(){
+				ctx.strokeStyle="peru";
+				ctx.fillStyle="peru";
+			
+			}
+			function pink(){
+				ctx.strokeStyle="pink";
+				ctx.fillStyle="pink";
+			}
+			function plum(){
+				ctx.strokeStyle="plum";
+				ctx.fillStyle="plum";
+			}
+			function powderblue(){
+				ctx.strokeStyle="powderblue";
+				ctx.fillStyle="powderblue";
+			
+			}
+			function purple(){
+				ctx.strokeStyle="purple";
+				ctx.fillStyle="purple";
+			
+			}
+			function rebeccapurple(){
+				ctx.strokeStyle="rebeccapurple";
+				ctx.fillStyle="rebeccapurple";
+			
+			}
+			function red(){
+				ctx.strokeStyle="red";
+				ctx.fillStyle="red";
+			
+			}
+			function rosybrown(){
+				ctx.strokeStyle="rosybrown";
+				ctx.fillStyle="rosybrown";
+			}
+			function royalblue(){
+				ctx.strokeStyle="royalblue";
+				ctx.fillStyle="royalblue";
+			}
+			function saddlebrown(){
+				ctx.strokeStyle="saddlebrown";
+				ctx.fillStyle="saddlebrown";
+			
+			}
+			function salmon(){
+				ctx.strokeStyle="salmon";
+				ctx.fillStyle="salmon";
+			
+			}
+			function sandybrown(){
+				ctx.strokeStyle="sandybrown";
+				ctx.fillStyle="sandybrown";
+			
+			}
+			function seagreen(){
+				ctx.strokeStyle="seagreen";
+				ctx.fillStyle="seagreen";
+			
+			}
+			function seashell(){
+				ctx.strokeStyle="seashell";
+				ctx.fillStyle="seashell";
+			
+			}
+			function sienna(){
+				ctx.strokeStyle="sienna";
+				ctx.fillStyle="sienna";
+			
+			}
+			function silver(){
+				ctx.strokeStyle="silver";
+				ctx.fillStyle="silver";
+			
+			}
+			function skyblue(){
+				ctx.strokeStyle="skyblue";
+				ctx.fillStyle="skyblue";
+			
+			}
+			function slateblue(){
+				ctx.strokeStyle="slateblue";
+				ctx.fillStyle="slateblue";
+			
+			}
+			function slategrey(){
+				ctx.strokeStyle="slategrey";
+				ctx.fillStyle="slategrey";
+			
+			}
+			function snow(){
+				ctx.strokeStyle="snow";
+				ctx.fillStyle="snow";
+			
+			}
+			function springgreen(){
+				ctx.strokeStyle="springgreen";
+				ctx.fillStyle="springgreen";
+			
+			}
+			function steelblue(){
+				ctx.strokeStyle="steelblue";
+				ctx.fillStyle="steelblue";
+			
+			}
+			function tan(){
+				ctx.strokeStyle="tan";
+				ctx.fillStyle="tan";
+			
+			}
+			function teal(){
+				ctx.strokeStyle="teal";
+				ctx.fillStyle="teal";
+			
+			}
+			function thistle(){
+				ctx.strokeStyle="thistle";
+				ctx.fillStyle="thistle";
+			
+			}
+			function tomato(){
+				ctx.strokeStyle="tomato";
+				ctx.fillStyle="tomato";
+			
+			}
+			function turquoise(){
+				ctx.strokeStyle="turquoise";
+				ctx.fillStyle="turquoise";
+			
+			}
+			function violet(){
+				ctx.strokeStyle="violet";
+				ctx.fillStyle="violet";
+			
+			}
+			function wheat(){
+				ctx.strokeStyle="wheat";
+				ctx.fillStyle="wheat";
+			
+			}
+			function white(){
+				ctx.strokeStyle="white";
+				ctx.fillStyle="white";
+			
+			}
+			function whitesmoke(){
+				ctx.strokeStyle="whitesmoke";
+				ctx.fillStyle="whitesmoke";
+			
+			}
+			function yellow(){
+				ctx.strokeStyle="yellow";
+				ctx.fillStyle="yellow";
+			
+			}
+			function yellowgreen(){
+				ctx.strokeStyle="yellowgreen";
+				ctx.fillStyle="yellowgreen";
+			
+			}
+			
+			function changecanvassize(){
+				canvas.width = prompt("Enter the canvas width");
+				canvas.height = prompt("Enter the canvas height");
+				
+			}
+			
+			function fillbackground(){
+				ctx.fillRect(0,0,parseInt(canvas.width),parseInt(canvas.height));
+			}
+			
+		
+			
+      </script>   
+   </body>
+</html>
