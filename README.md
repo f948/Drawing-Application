@@ -4,8 +4,10 @@ Description: A microsoft paint like application in which the user can paint on t
 
 # Required 
 A web browser that can run the html file
+Notepad or Notepad ++ installed
 
 # To make the code work
+Copy and paste the code from this repository into Nodepad and save the files with the same names as listed above
 Run the html file using your web browser
 
 # LICENSE:
