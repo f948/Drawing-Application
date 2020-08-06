@@ -2,6 +2,8 @@
 
 Description: A microsoft paint like application in which the user can paint on the canvas using all the colors supported in javascript.
 
+Video demonstration avaliable at https://www.youtube.com/watch?v=vaWMBweYrRA
+
 # Required 
 A web browser that can run the html file
 Notepad or Notepad ++ installed
